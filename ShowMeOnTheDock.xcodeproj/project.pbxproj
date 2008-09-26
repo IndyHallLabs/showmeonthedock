@@ -13,6 +13,8 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		F903D2550E8C2D8D002A8494 /* ShowMeOnTheDock.m in Sources */ = {isa = PBXBuildFile; fileRef = F903D2540E8C2D8D002A8494 /* ShowMeOnTheDock.m */; };
 		F903D2840E8C30A9002A8494 /* DockTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = F903D2830E8C30A9002A8494 /* DockTileView.m */; };
+		F98A65630E8D89FF00071926 /* ShowMeOnTheDock.icns in Resources */ = {isa = PBXBuildFile; fileRef = F98A65600E8D89FF00071926 /* ShowMeOnTheDock.icns */; };
+		F98A658A0E8D8B2800071926 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F98A65890E8D8B2800071926 /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F903D2540E8C2D8D002A8494 /* ShowMeOnTheDock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMeOnTheDock.m; sourceTree = "<group>"; };
 		F903D2820E8C30A9002A8494 /* DockTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockTileView.h; sourceTree = "<group>"; };
 		F903D2830E8C30A9002A8494 /* DockTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockTileView.m; sourceTree = "<group>"; };
+		F98A65600E8D89FF00071926 /* ShowMeOnTheDock.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ShowMeOnTheDock.icns; sourceTree = "<group>"; };
+		F98A65890E8D8B2800071926 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +109,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F98A65600E8D89FF00071926 /* ShowMeOnTheDock.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				F98A65890E8D8B2800071926 /* Credits.rtf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -166,6 +172,8 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				F98A65630E8D89FF00071926 /* ShowMeOnTheDock.icns in Resources */,
+				F98A658A0E8D8B2800071926 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
