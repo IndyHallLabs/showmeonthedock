@@ -1,0 +1,20 @@
+INTRODUCTION
+
+Hello and thanks for checking out ShowMeOnTheDock.
+
+This program was conceived as a tool to help icon developers.  Basically, it lets
+you see your work in it's native habitat, the Dock.  Drag an icon (.icns) file 
+onto ShowMeOnTheDock, and it'll be displayed in place of the app's icon.
+
+
+LEGAL
+
+ShowMeOnTheDock is copyrighted open-source software that is released under the BSD 
+License.  For details on the license, see the LICENSE file.
+
+
+AUTHOR
+
+Jason Allum (jallum@gmail.com)
+Philadelphia, PA, USA
+http://ripitapp.com
